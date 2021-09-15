@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/*Article content-------------------------*/
+
+article.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+article.content>h3 {
+    font-size: 25px;
+    font-size: 1.5625rem;
+    text-align: center;
+    padding: 50px 0;
+}
+
+div.btn-menu {
+    width: 1200px;
+    height: 50px;
+    border-bottom: 1.5px solid #632B8B;
+}
+
+div.btn-menu>a {
+    display: block;
+    width: 400px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: #888;
+}
+
+div.btn-menu>a:hover {
+    background-color: #632B8B;
+    color: #fff;
+}
+
+div.btn-menu>a:nth-child(1) {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #999;
+    background-color: #fff;
+}
+
+div.btn-menu>a:nth-child(1):hover {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: #632B8B;
+}
+
+div.btn-menu>a:nth-child(3) {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: #632B8B;
+}
+
+/*Article direction-------------------------*/
+
+article.direction {
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+article.direction-container {
+    width: 1200px;
+    margin: 0 auto;
+
+    outline: 3px solid blue;
+}
+
+article.direction-container>iframe {
+    width: 800px;
+}
+
+
+
+
+/*Button-------------------------*/
+
+
+div.page-btn {
+    width: 600px; /*임의로*/
+    margin: 0 auto;
+    
+    margin-bottom: 50px;
+}
+
+div.page-btn>ul.page-btn-wrap {
+    width: 592px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+ul.page-btn-wrap>li {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+ul.page-btn-wrap>li:hover {
+    border: 1px solid #7d2e8f;
+}
+
+ul.page-btn-wrap>li~li {
+    margin-left: 8px;
+}
+
+ul.page-btn-wrap>li>a {
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 40px;
+    color: #ccc;
+}
+
+
+
+ul.page-btn-wrap>li>a:hover {
+    color: #7d2e8f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

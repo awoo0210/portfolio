@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
+header > div#gnb {
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header > div#gnb:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header > div#gnb > h1 {
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+}
+
+header > div#gnb > h1 > a {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header > div#gnb > h1 > a > img {
+    display: block;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+}
+
+header > div#gnb > nav.menu {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header > div#gnb > nav.menu > ul {
+    width: 1200px;
+}
+
+header > div#gnb > nav.menu > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header > div#gnb > nav.menu > ul > li {
+    float: left;
+}
+
+header > div#gnb > nav.menu > ul > li > a {
+    display: block;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #000;
+    font-weight: 500;
+}
+
+header > div#gnb > nav.menu > ul > li > a:hover {
+    border-bottom: 1.5px #632B8B;
+    box-sizing: border-box;
+    color: #632B8B;
+}
+
+header > div#gnb > div.join {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 150px;
+}
+
+/*Sub----------------------------------------*/
+header > div#sub {
+    width: 100%;
+    height: 300px;
+    display: none;
+    background: #fff url(../images/constellation.gif) center;
+}
+
+header > div#sub > div.inner-sub {
+    width: 100%;
+    height: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 60px;
+    position: relative;
+}
+
+header > div#sub > div.inner-sub > div.sub-wrap {
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+}
+
+header > div#sub > div.inner-sub > div.sub-wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header > div#sub > div.inner-sub > div.sub-wrap > ul.smenu {
+    width: 200px;
+    height: 300px;
+    line-height: 3;
+    float: left;
+}
+
+header > div#sub > div.inner-sub > div.sub-wrap > ul.smenu > li {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header > div#sub > div.inner-sub > div.sub-wrap > ul.smenu > li > a {
+    display: block;
+    width: 200px;
+    height: 100%;
+    color: #aaa;
+}
+
+header > div#sub > div.inner-sub > div.sub-wrap > ul.smenu > li > a:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>login</title>
+        
+        <link rel="stylesheet" href="css/signup.css">
+    </head>
+    <body>
+       
+        <h1><a href="#"><img src="images/logo.png" alt="월드미스유니버시티로고"></a></h1>
+
+    <div class="wrap">
+        <form method="post">
+
+            <table>
+                <tr>
+                    <td>아이디</td>
+                    <td class="userid">
+                        <input type="text" name="id" placeholder="아이디를 입력해 주세요.">
+                    </td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td class="userpw">
+                        <input type="password" name="pw" placeholder="비밀번호를 입력해 주세요.">
+                    </td>
+                </tr>
+                <tr>
+                    <td>이름</td>
+                    <td class="username">
+                        <input type="text" name="name" placeholder="이름을 입력해 주세요." autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td>닉네임</td>
+                    <td class="usernick">
+                        <input type="text" name="nick" placeholder="닉네임을 입력해 주세요.">
+                    </td>
+                </tr>
+                <tr>
+                    <td>휴대전화</td>
+                    <td>
+                        <select name="" class="agency">
+                            <optgroup label="통신사">
+                                <option value="SKT">SKT</option>
+                                <option value="KT">KT</option>
+                                <option value="LG U+">LG U+</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td class="usernumber">
+                        <input type="tel" name="hp" placeholder="휴대전화번호를 입력해 주세요.">
+                    </td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td class="usermail">
+                        <input type="email" name="email" placeholder="이메일을 입력해 주세요.">
+                    </td>
+                </tr>
+            </table>
+
+            <input type="submit" value="제출" class="submit">
+
+        </form>
+    </div>
+        
+        
+    </body>
+</html>

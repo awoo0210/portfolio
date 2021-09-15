@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*Main--------------------------------------------------*/
+
+main {
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    background: url(../images/main-about.jpg) no-repeat center/100%;
+}
+
+main>div.main-banner {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding-top: 120px;
+}
+
+main>div.main-banner>span {
+    font-size: 20px;
+    font-size: 1.25rem;
+    border-top: 2px solid #fff;
+    line-height: 40px;
+}
+
+
+
+/*Section--------------------------------------------------*/
+/*Bar Menu-------------------------*/
+
+div.bar-menu {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #999;
+}
+
+div.bar-menu>div.bar-container {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+div.bar-container>ul.bar-smenu {
+    position: relative;
+}
+
+div.bar-container>ul.bar-smenu:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul.bar-smenu>li {
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+ul.bar-smenu>li>a {
+    display: block;
+    width: 100%;
+    color: #999;
+    padding: 14px 0;
+}
+
+ul.bar-smenu>li>a:hover {
+    color: #632B8B;
+    border-bottom: 1.5px solid #632B8B;
+    box-sizing: border-box;
+}
+
+ul.bar-smenu>li>ul.down-smenu {
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    border: 1px solid #888;
+
+    display: none;;
+}
+
+ul.bar-smenu>li>ul.down-smenu>li {
+    background-color: #fff;
+    padding: 14px 0;
+}
+
+ul.bar-smenu>li>ul.down-smenu>li>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #888;
+}
+
+ul.bar-smenu>li>ul.down-smenu>li>a:hover {
+    color: #632B8B;
+    box-sizing: border-box;
+}
+
+
+
+/*Article content-------------------------*/
+
+article.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+article.content>h3 {
+    font-size: 25px;
+    font-size: 1.5625rem;
+
+}
+
+div.btn-menu {
+    width: 1200px;
+    height: 50px;
+    border-bottom: 1.5px solid #632B8B;
+}
+
+div.btn-menu>a {
+    display: block;
+    width: 300px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: #888;
+}
+
+div.btn-menu>a:hover {
+    background-color: #632B8B;
+    color: #fff;
+}
+
+div.btn-menu>a:nth-child(1) {
+    display: block;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: #632B8B;
+}

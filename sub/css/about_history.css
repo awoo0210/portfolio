@@ -1,0 +1,126 @@
+/*Article history-------------------------*/
+
+article.history {
+    width: 100%;
+    background: url(../images/history_bg.png) no-repeat 100%/cover;
+}
+
+div.history-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+div.history-tit {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    margin: 100px 0 0 0;
+    background: url(../images/history-tit-bg.jpg) no-repeat center/cover;
+    opacity: 0.8;
+}
+
+div.history-tit>h4 {
+    font-size: 26px;
+    font-size: 1.625rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 300px;
+    color: #fff;
+}
+
+div.history-wrap {
+    width: 100%;
+    margin-top: 100px;
+}
+
+div.history-box {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+div.history-box>div.years {
+    display: inline-block;
+    position: absolute;
+    top: -50px;
+}
+
+div.years>h3 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+div.history-box>span.line {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    border: 0.5px solid #ccc;
+    border-radius: 50%;
+    color: #ccc;
+    position: absolute;
+    top: 40px;
+    left: 265px;
+    z-index: 2;
+}
+
+div.history-box>span.line:before {
+    content: "";
+    position: absolute;
+    left: 28px;
+    top: 38px;
+    width: 1px;
+    height: 400px;
+    background-color: #ccc;
+}
+
+div.history-box>span.color-line {
+    position: absolute;
+    left: 294px;
+    top: 63px;
+    width: 1px;
+    height: 400px;
+    background-color: purple;
+    transition: all 0.8s 1.5s;
+    transform: scaleY(0);
+    z-index: 4;
+}
+
+div.history-box>span.blind:before {
+    display: none;
+}
+
+div.history-box>span.color-blind {
+    display: none;
+}
+
+div.history-box>div.date {
+    width: 500px;
+    float: right;
+}
+
+div.date>div.content-wrap {
+    width: 600px;
+    float: right;
+    margin-top: 50px;
+}
+
+div.content-wrap>div.content-tit {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+div.content-wrap>ul.content-box {
+    width: 500px;
+    margin-top: 20px;
+}
+
+ul.content-box>li {
+    margin: 5px 0;
+}

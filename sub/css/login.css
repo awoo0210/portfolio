@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+body {
+    background-color: #eee;
+}
+
+h1 {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+section.login {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+div.loginbox {}
+
+form > div.id {
+    width: 100%;
+}
+
+div.id > input {
+    width: 280px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+div.password {}
+
+div.password > input {
+    width: 280px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+label > input {
+    margin-top: 20px;
+    width: 10px;
+}
+
+div.btngrp {
+    padding-top: 20px;
+    width: 296px;
+    margin: 0 auto;
+    
+}
+
+div.btngrp > input:nth-child(1) {
+    width: 145px;
+    height: 40px;
+    border: 1px solid purple;
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+div.btngrp > input:nth-child(2) {
+    width: 145px;
+    height: 40px;
+    border: 1px solid purple;
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}

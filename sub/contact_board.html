@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>자유게시판 - 게시판목록</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/subheader.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact_board.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="gnb">
+            <h1><a href="#"><img src="images/logo.png" alt="월드미스유니버시티로고"></a></h1>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="about_intro.html">ABOUT</a></li>
+                    <li><a href="apply.html">APPLY</a></li>
+                    <li><a href="winner.html">WINNER</a></li>
+                    <li><a href="gallery_voluntary.html">GALLERY</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="contact_question.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="join">
+                <a href="#"><img src="images/icon-member-filled.png" alt="회원아이콘"></a>
+            </div>
+        </div>
+
+        <!--전체 슬라이드-->
+        <div id="sub">
+            <div class="inner-sub">
+                <div class="sub-wrap">
+                    <ul class="smenu">
+                        <li><a href="about_intro.html">소개</a></li>
+                        <li><a href="about_symbol-establish.html">심벌 및 취지</a></li>
+                        <li><a href="about_history.html">연혁</a></li>
+                        <li><a href="about_membernation.html">회원국가</a></li>
+                    </ul>
+                    <ul class="smenu">
+                        <li><a href="apply.html">참가신청</a></li>
+                    </ul>
+                    <ul class="smenu">
+                        <li><a href="winner.html">한민희</a></li>
+                    </ul>
+                    <ul class="smenu">
+                        <li><a href="gallery_voluntary.html">봉사활동</a></li>
+                        <li><a href="gallery_contest.html">대회</a></li>
+                    </ul>
+                    <ul class="smenu">
+                        <li><a href="news.html">보도자료</a></li>
+                    </ul>
+                    <ul class="smenu">
+                        <li><a href="contact_question.html">자주하는질문</a></li>
+                        <li><a href="contact_board.html">자유게시판</a></li>
+                        <li><a href="contact_direction.html">찾아오시는길</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <!--이미지 배경처리-->
+        <div class="main-banner">고객센터<br><span>CONTACT</span></div>
+    </main>
+
+    <section>
+
+        <div class="bar-menu">
+            <div class="bar-container">
+                <ul class="bar-smenu">
+                    <li><a href="contact_question.html">고객센터</a></li>
+                    <li><a href="contact_board.html">자유게시판</a></li>
+                    <li>
+                        <ul class="down-smenu">
+                            <li><a href="contact_question.html">자주하는 질문</a></li>
+                            <li><a href="contact_board.html">자유게시판</a></li>
+                            <li><a href="contact_direction.html">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <article class="content">
+            <h3>고객센터</h3>
+
+            <div class="btn-menu">
+                <a href="contact_question.html">자주하는 질문</a>
+                <a href="contact_board.html">자유게시판</a>
+                <a href="contact_direction.html">찾아오시는 길</a>
+            </div>
+        </article>
+
+        <div class="question-search">
+            <form action="#" name="searchfrm" method="post">
+                <a href="#">
+                    <input type="search" placeholder="검색어를 입력해주세요.">
+                    <div class="icon-search">
+                        <img src="images/icon-search-black.png" alt="검색돋보기">
+                    </div>
+                </a>
+            </form>
+        </div>
+
+
+        <article class="listboard">
+            <div class="list">
+                <h2>게시판 <span>내용</span></h2>
+
+                <form action="listform" method="post">
+                    <div class="listtable">
+                        <table width="500" cellpadding="8" cellspacing="0" style="border-collapse:collapse;">
+
+                            <colgroup>
+                                <col width="10%">
+                                <col width="50%">
+                                <col width="20%">
+                                <col width="20%">
+                            </colgroup>
+
+                            <thead>
+                                <tr class="tit">
+                                    <td>번호</td>
+                                    <td>제목</td>
+                                    <td>작성자</td>
+                                    <td>날짜</td>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>10</td>
+                                    <td class="title"><a href="#">멈머이는 댕댕하고 울지</a></td>
+                                    <td>시고르자브종</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td class="title"><a href="#">따로 나가는 개인 비용이 있나요?</a></td>
+                                    <td>김슬기님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td class="title"><a href="#">32회 대회 후기!</a></td>
+                                    <td>이서윤님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td class="title"><a href="#">지인도 합숙훈련 때 같이 갈 수 있나요?</a></td>
+                                    <td>김진영님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td class="title"><a href="#">장기자랑은 모두가 할 수 있는건가요?</a></td>
+                                    <td>고도현님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td class="title"><a href="#">제 32회 한국대회 직관 후기!</a></td>
+                                    <td>이은지님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td class="title"><a href="#">배고파요</a></td>
+                                    <td>김도아님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="title">매운거 좋아요!<a href="#"></a></td>
+                                    <td>박보라님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td class="title"><a href="#">아무생각 없음</a></td>
+                                    <td>우연정님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td class="title"><a href="#">곤냠미 냔냐하고 울지</a></td>
+                                    <td>전진영님</td>
+                                    <td>2021-09-10</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+
+                <div class="btngrp">
+                    <a href="#" class="btn submit">글쓰기</a>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-wrap clearfix">
+                <ul class="footer-box">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">서비스 이용약관</a></li>
+                    <li><a href="about_intro.html">회사소개</a></li>
+                    <li><a href="contact_direction.html">오시는 길</a></li>
+                    <li><a href="contact_question.html">자주하는 질문</a></li>
+                </ul>
+            </div>
+            <div class="text-box">
+                <p>World Miss University 701, Hyundai bldg, Mapo-gu, Seoul | E-mail:wmuwoo@naver.com</p>
+                <p class="copyright">&copy;COPYRIGHT WORLD MISS UNIVERSITY.ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body></html>

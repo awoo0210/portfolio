@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+body {
+    background-color: #eee;
+}
+
+h1 {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+div.wrap {
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+div.wrap form {
+    padding-left: 40px;
+}
+
+div.wrap table input {
+    padding-left: 10px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 10px 10px 10px 0px;
+}
+
+div.wrap input:hover {
+    border: 1px solid purple;
+}
+
+div.wrap table tr td {
+    display: block;
+}
+
+select {
+    padding-left: 10px;
+    width: 412px;
+    height: 50px;
+    margin: 10px 10px 10px 0px;
+    border: 1px solid #ccc;
+}
+
+td.usernumber {
+    display: inline-block;
+    width: 100px;
+}
+
+input.submit {
+    width: 415px;
+    height: 50px;
+    background-color: purple;
+    border: 1px solid purple;
+    color: #fff;
+    margin-top: 30px;
+}
+
+input.submit:hover {
+    background-color: #fff;
+    color: purple;
+}

@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/*Article content-------------------------*/
+
+article.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+article.content>h3 {
+    font-size: 25px;
+    font-size: 1.5625rem;
+    text-align: center;
+    padding: 50px 0;
+}
+
+div.btn-menu {
+    width: 1200px;
+    height: 50px;
+    border-bottom: 1.5px solid #632B8B;
+}
+
+div.btn-menu>a {
+    display: block;
+    width: 400px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: #999;
+}
+
+div.btn-menu>a:hover {
+    background-color: #632B8B;
+    color: #fff;
+}
+
+div.btn-menu>a:nth-child(1) {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #999;
+    background-color: #fff;
+}
+
+div.btn-menu>a:nth-child(1):hover {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: #632B8B;
+}
+
+div.btn-menu>a:nth-child(2) {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: #632B8B;
+}
+
+/*Question Search-------------------------*/
+
+div.question-search {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+div.question-search > form {
+    width: 400px;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+div.question-search > form > a {
+    display: block;
+}
+
+
+div.question-search > form > a > input {
+    border: none;
+    width: 350px;
+    padding: 10px;
+}
+
+div.question-search > form > a > div.icon-search {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+div.question-search > form > a > div.icon-search > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Article inputboard-------------------------*/
+article.listboard {
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+article.listboard>div.list {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+div.list>form>div.listtable {
+    margin-top: 20px;
+}
+
+div.list>form>div.listtable>table {
+    width: 1200px;
+}
+
+div.listtable>table>thead>tr.tit {
+    height: 50px;
+    background-color: #eee;
+    text-align: center;
+}
+
+div.listtable>table>thead>tr.tit>td {
+    font-weight: bold;
+    border-top: 3px solid #632B8B;
+    border-bottom: 2px solid #999;
+}
+
+div.listtable>table>tbody {
+    width: 1200px;
+    text-align: center;
+}
+
+div.listtable>table>tbody>tr {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+div.listtable>table>tbody>tr>td.title {
+    color: darkgrey;
+}
+
+div.listtable>table>tbody>tr>td>a {
+    color: gray;
+}
+
+
+
+/*div.btngrp*/
+div.btngrp{
+    width: 100%;
+    margin-bottom: 100px;
+}
+div.btngrp>a.btn {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #632B8B;
+    background-color: #fff;
+    text-align: center;
+    color: #632B8B;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+div.btngrp>a.btn:hover {
+    background-color: #632B8B;
+    color: #fff;
+}
+
+div.btngrp>a.btn.submit {
+    display: inline-block;
+    float: right;
+}
+
